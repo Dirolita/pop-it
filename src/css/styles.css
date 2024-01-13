@@ -5,9 +5,9 @@
 --orange:#ffbf69;
 --light__blue: #cbf3f0;
 --black: #333333;
---sm:12px;
---md:14px;
---lg:16px;
+--sm:14px;
+--md:16px;
+--lg:18px;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -96,7 +96,7 @@ h3{
 .hambur__menu ul{
     margin-top: 14px;
     text-align: end;
-    font-size: var(--sm);
+    font-size: var(--md);
     display: none;
 }
 .hambur__menu li{
@@ -118,7 +118,7 @@ h3{
 }
 .main-section__content p{
     color: white;
-    font-size: var(--md);
+    font-size: var(--lg);
     font-weight: bold;
 }
 .main-section__button{
